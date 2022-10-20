@@ -1,0 +1,16 @@
+.red {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: red;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s linear;
+    transform-origin: 0 100px;
+}
+
+.red:active {
+    transform: rotateZ(90deg) scale(2);
+}

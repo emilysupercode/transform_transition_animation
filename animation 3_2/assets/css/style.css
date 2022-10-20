@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg {
+    background-color: black;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 50px auto;
+}
+
+div {
+    height: 50px;
+    width: 50px;
+    animation-name: hover;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+    animation-direction: alternate;
+}
+
+@keyframes hover {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    /* 50% {
+        transform: translateY(-70px);
+    } */
+
+    100% {
+        transform: translateY(-70px);
+    }
+
+}
+
+.div1 {
+    background-color: darkorange;
+}
+
+.div2 {
+    background-color: deepskyblue;
+    animation-delay: 500ms;
+}
+
+.div3 {
+    background-color: lawngreen;
+    animation-delay: 1000ms;
+}
+
+.div4 {
+    background-color: deeppink;
+    animation-delay: 1500ms;
+}
+
+.div5 {
+    background-color: mediumslateblue;
+    animation-delay: 2000ms;
+}

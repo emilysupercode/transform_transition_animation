@@ -1,0 +1,10 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    transition: width 2s linear;
+}
+
+div:hover {
+    width: 100%;
+}
